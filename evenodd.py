@@ -1,5 +1,5 @@
 import sys
-s = 100
+s = int(input("Enter the number: "))
 for arg in sys.argv[1:]:
     number = int(arg)
     s += number
